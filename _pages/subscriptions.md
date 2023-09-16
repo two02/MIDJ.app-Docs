@@ -2,6 +2,7 @@
 title: "subscriptions"
 layout: default
 nav_order: 2
+permalink: /subscriptions/
 #has_children: true
 ---
 <details open markdown="block">

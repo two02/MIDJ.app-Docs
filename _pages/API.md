@@ -4,6 +4,15 @@ layout: default
 has_children: true
 
 ---
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 There are three main actions in API.
 #### [Image Generation](/_pages/ImageGeneration)
 Here you can send a POST request to the API with a prompt in its body and generate four sample images.

@@ -19,3 +19,5 @@ permalink: /:categories/:title/
   #  permalink: "/"
    # output: true
 
+color_scheme: dark
+

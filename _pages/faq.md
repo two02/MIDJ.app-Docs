@@ -7,4 +7,4 @@ permalink: /faq/
 
 ---
 
-# hello
+# Frequently asked questions

@@ -8,7 +8,7 @@ permalink: /image-generation/
 {% include table-content %}
 
 # Using API to generate images
-Send a POST request to, [https://api.midj.app/api/generate](https://api.midj.app/api/generate) with your API token for the Authorization key. In the body specify your prompt in json format.
+Send a POST request to, [https://api.midj.app/api/generate](https://api.midj.app/api/generate) with your API token for the Authorization key in the header. In the body specify your prompt in json format.
 
 ### Using the API with "postman"
 Create a POST request to [https://api.midj.app/api/generate](https://api.midj.app/api/generate).
@@ -28,3 +28,6 @@ Then head over to your webhook service and wait until image results back. You ca
 ![image generated](/../_images/generated immages step 1.png "image generated")
 
 You also can select the prefered image among the given images and [upscale](/upscaling/).
+
+
+## fast generation

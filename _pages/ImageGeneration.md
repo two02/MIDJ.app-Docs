@@ -8,10 +8,10 @@ permalink: /image-generation/
 {% include table-content %}
 
 # Using API to generate images
-Send a POST request to, [https://api.midj.app/api/generate](https://api.midj.app/api/generate) with your API token for the Authorization key in the header. In the body specify your prompt in json format.
+Send a POST request to, **https://api.midj.app/api/generate** with your API token for the Authorization key in the header. In the body specify your prompt in json format.
 
 ### Using the API with "postman"
-Create a POST request to [https://api.midj.app/api/generate](https://api.midj.app/api/generate).
+Create a POST request to **https://api.midj.app/api/generate**.
 In the request header specify the Authorization key with the value of your API token.
 ![header>Autharization](/../_images/postman-header.png "Postman")
 

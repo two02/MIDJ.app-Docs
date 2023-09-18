@@ -31,7 +31,7 @@ You will be redirect to stripe API to manage your payment records. Once you done
 
 ### Generating a API token
 Head over to Dashboard > API TOKEN tab.
-Click on the Create New Token button. A dialog box will pop up and you'll ask to enter a webhook url. You can use a free webhook service like [webhook.site](https://webhook.site/).
+Click on the Create New Token button. A dialog box will pop up and you'll ask to enter a webhook url. You can use a free webhook service like [webhook.site](https://webhook.site/){:target="_blank"}.
 Copy and paste your webhook url to the dialog box and click enter.
 
 ![Webhook](/../_images/create API > webhook.png "Webhookurl")

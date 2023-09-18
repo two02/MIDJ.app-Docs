@@ -5,7 +5,7 @@ parent: API usecases
 permalink: /variation/
 ---
 # Variation
-You can request a variation of particular image you got as a result. Send a POST request to https://api.midj.app/api/variation with your API token as value for Autharization key in the header.
+You can request a variation of particular image you got as a result. Send a POST request to **https://api.midj.app/api/variation** with your API token as value for Autharization key in the header.
 In the body you have to provide 
 - **index** of the preffred image
 - **"trigger_id**

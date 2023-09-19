@@ -13,7 +13,7 @@ permalink: /api/
 {:toc}
 </details>
 
-There are three main actions in API.
+There are four main actions in API.
 #### [Image Generation](/image-generation/)
 Here you can send a POST request to the API with a prompt in its body and generate four sample images.
 
@@ -21,4 +21,8 @@ Here you can send a POST request to the API with a prompt in its body and genera
 Once you got four sample images, you can select a particular image to upscale. Once you send POST request with relavant index of the image you want you will recieve the upscaled version of the image.
 
 #### [Variation](/variation/)
-If your sample image need some more work, you can change it adding more text.
+If your sample image need some more work, you can request variation of the image.
+
+#### [isBanned](/isBanned/)
+There are some keywords you cannot use in the prompt. You can check your keywords whether they are banned or not.
+

@@ -4,6 +4,7 @@ layout: default
 parent: API usecases
 permalink: /isbanned/
 ---
+There are some keywords you cannot use in the prompt. You can check your prompt by using this endpoint.
 
 # Checking whether a keyword is banned.
 

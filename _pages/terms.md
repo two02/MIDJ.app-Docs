@@ -1,6 +1,5 @@
 ---
-title: "Terms of Condition"
+title: "Terms and Condition"
 layout: default
-parent: API usecases
 permalink: /terms/
 ---

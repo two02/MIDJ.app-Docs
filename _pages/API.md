@@ -26,3 +26,4 @@ If your sample image need some more work, you can request variation of the image
 #### [isBanned](/isbanned/)
 There are some keywords you cannot use in the prompt. You can check your keywords whether they are banned or not.
 
+{% include swagger.html url='/api/image-generate.json' %}

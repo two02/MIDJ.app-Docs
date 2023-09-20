@@ -1,0 +1,38 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: MIDJ.app API
+  description: >-
+    <h2>This is a sample generated with swagger</h2>
+host: api.midj.app
+basePath: /api
+schemes:
+  - https
+paths:
+  /generate:
+    post:
+      summary: Generate images with prompt
+      tags:
+        - Image generation
+      description: An image sample is generated according to prompt provided in the body and returns a success message. The details pf the image, trigger id, url will be recieved to the webhook service.
+      parameters:
+        - in: header
+          name: Authorization
+          type: string
+          default: your API token
+          required: true
+          description: your token
+            
+        - in: body
+          name: prompt
+          required: true
+          schema:
+            type: string
+            default: 
+              prompt: Building eiffel tower on mars.
+            description: The prompt you want to generate the image from
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: OK

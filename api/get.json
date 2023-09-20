@@ -10,7 +10,7 @@ schemes:
 paths:
   /users:
     get:
-      summary: Returns a list of users.
+      summary: bla bla bla.
       description: Optional extended description in Markdown.
       produces:
         - application/json

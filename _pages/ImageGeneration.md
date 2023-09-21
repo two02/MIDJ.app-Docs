@@ -29,6 +29,7 @@ Then head over to your webhook service and wait until image results back. You ca
 
 You also can select the prefered image among the given images and [upscale](/upscaling/).
 
+### Swagger documentation
 {% include swagger.html url='/api/image-generate.json' %}
 
 ## fast generation

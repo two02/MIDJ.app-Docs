@@ -4,6 +4,9 @@ layout: default
 parent: API usecases
 permalink: /isbanned/
 ---
+{% include table-content %}
+
+
 There are some keywords you cannot use in the prompt. You can check your prompt by using this endpoint.
 
 # Checking whether a keyword is banned.
@@ -22,5 +25,5 @@ Then in the body of the request, select raw body and json file format. Then spec
 Then you will get a response like below.
 ![request body](/../_images/isBanned response.png "request body")
 
-
+### Swagger documentation
 {% include swagger.html url='/api/isBanned.yml' %}

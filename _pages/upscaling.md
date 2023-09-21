@@ -4,6 +4,9 @@ layout: default
 parent: API usecases
 permalink: /upscaling/
 ---
+{% include table-content %}
+
+
 # Using the API to upscale a generated image.
 Send a POST request to **https://api.midj.app/api/upscale** with your API token for the Authorization key in the header. In the body you have to specify the 
 - **index** of the image you want to Upscale
@@ -24,5 +27,6 @@ Then in the body of the request specify the **index**, **trigger_id**, **msg_has
 You can find the **trigger_id**, **msg_hash** in the message body of the webhook .
 ![trigger id and msg_hash](/../_images/trigger id and msg hash.png "trigger id and msg_hash")
 
+### Swagger documentation
 {% include swagger.html url='/api/upscale.json' %}
 

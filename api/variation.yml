@@ -1,0 +1,40 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: MIDJ.app API
+  description: >-
+    <h2>This is a sample generated with swagger</h2>
+host: api.midj.app
+basePath: /api
+schemes:
+  - https
+paths:
+  /variation:
+    post:
+      summary: Request a variation of a prefrred image.
+      tags:
+        - Image Variation
+      description: Request a variation for a preferred image from the generated images. The details of the image, trigger id, url will be recieved to the webhook service.
+      parameters:
+        - in: header
+          name: Authorization
+          type: string
+          default: your API token
+          required: true
+          description: your token
+            
+        - in: body
+          name: Body
+          required: true
+          schema:
+            default: 
+               index: index of the preferred image
+               trigger_id: trigger id in the webhook
+               msg_hash: message hash recieved to webhook
+            description: The prompt you want to generate the image from
+        
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: OK

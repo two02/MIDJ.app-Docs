@@ -24,4 +24,5 @@ Then in the body of the request specify the **index**, **trigger_id**, **msg_has
 You can find the **trigger_id**, **msg_hash** in the message body of the webhook .
 ![trigger id and msg_hash](/../_images/trigger id and msg hash.png "trigger id and msg_hash")
 
+{% include swagger.html url='/api/upscale.json' %}
 

@@ -1,0 +1,38 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: MIDJ.app API
+  description: >-
+    <h2>This is a sample generated with swagger</h2>
+host: api.midj.app
+basePath: /api
+schemes:
+  - https
+paths:
+  /isBanned:
+    post:
+      summary: Check whether a given prompt is banned or not.
+      tags:
+        - Is Banned
+      description: Check whether a particular prompt is banned for use.
+      parameters:
+        - in: header
+          name: Authorization
+          type: string
+          default: your API token
+          required: true
+          description: your token
+            
+        - in: body
+          name: prompt
+          required: true
+          schema:
+            default: 
+               prompt: prompt you want to check.
+            description: The prompt you want to check
+        
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: OK

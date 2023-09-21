@@ -14,3 +14,5 @@ In the body you have to provide
 Below is a example of using variation with postman.
 ![Variation body](/../_images/Variation body.png "Variation body")
 
+
+{% include swagger.html url='/api/variation.yml' %}

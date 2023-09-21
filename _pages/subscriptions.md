@@ -20,11 +20,15 @@ There are three subscription plans for MIDJ.app.
 ![subscriptions](/../_images/Subcription-Plans.png "Subscription Plans")
 
 First you have to sign up to MIDJ.app with a prefered account to select a subscription plan.
+All plans get unlimited relax generations. 
 
 ### Premium
+The Premium subscription offers you 2 concurrent requests and 10 Fast-GPU hours.
 
 ### Standard
+The Standard subscription offers you 5 Fast-GPU hours.
 
 ### Basic
+The Basic plan offers you unlimited relax generation.
 
 

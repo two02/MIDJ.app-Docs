@@ -1,8 +1,9 @@
 ---
-title: "API usecases"
+title: "Using the API"
 layout: default
 has_children: true
 permalink: /api/
+nav_order: 3
 ---
 <details open markdown="block">
   <summary>

@@ -1,7 +1,7 @@
 ---
 title: "Image Generation"
 layout: default
-parent: API usecases
+parent: Using the API
 permalink: /image-generation/
 ---
 
@@ -9,6 +9,8 @@ permalink: /image-generation/
 
 # Using API to generate images
 Send a POST request to, **https://api.midj.app/api/generate** with your API token for the Authorization key in the header. In the body specify your prompt in json format.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gbirCaDgna4?si=kc_GhF9HvrqAtpQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Using the API with "postman"
 Create a POST request to **https://api.midj.app/api/generate**.

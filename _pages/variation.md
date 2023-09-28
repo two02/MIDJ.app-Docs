@@ -1,7 +1,7 @@
 ---
 title: "Variation"
 layout: default
-parent: API usecases
+parent: Using the API
 permalink: /variation/
 ---
 {% include table-content %}

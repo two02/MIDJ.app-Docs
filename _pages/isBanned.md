@@ -1,7 +1,7 @@
 ---
 title: "isBanned"
 layout: default
-parent: API usecases
+parent: Using the API
 permalink: /isbanned/
 ---
 {% include table-content %}

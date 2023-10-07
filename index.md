@@ -5,6 +5,9 @@ nav_order: 1
 
 ---
 {% include table-content %}
+
+<iframe style="aspect-ratio: 16/9; width: 100%;" src="https://www.youtube.com/embed/gbirCaDgna4?si=kc_GhF9HvrqAtpQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # What is MIDJ.app?
 
 MIDJ is an API that allows you to generate high quality images using text prompts as the input.

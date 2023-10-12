@@ -21,3 +21,11 @@ permalink: /:categories/:title/
 
 color_scheme: dark
 
+# External navigation links
+nav_external_links:
+  - title: MIDJ NPM Module
+    url: https://www.npmjs.com/package/@twozerotwo/midj?activeTab=readme
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    hide_title: true
+    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
+    image: "/_images/midj-npm package.png"

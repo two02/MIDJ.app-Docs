@@ -36,5 +36,5 @@ You also can select the prefered image among the given images and [upscale](/ups
 
 ## fast generation
 With fast generation, image is genrated under a minute. The number of fast generation requests is depend upon your subscription plan.
- To use the fast generation, you have to specify **--fast** option in your prompt.
+ To use the fast generation, you have to specify ```--fast``` option in your prompt.
  ![fast generation](/../_images/fast generation.png "fast generation")

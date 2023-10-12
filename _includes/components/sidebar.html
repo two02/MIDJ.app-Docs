@@ -35,7 +35,7 @@
               {{ node.title }}
               {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
               {% endunless %}
-              {% if node.image %}<img style="max-width: 10em;" src="{{ node.image }}">{% endif %}
+              {% if node.image %}<img style="max-width: 10em;" src="{{ node.image }}" alt="{{ node.title }}">{% endif %}
             </a>
           </li>
         {%- endfor -%}

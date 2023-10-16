@@ -1,8 +1,8 @@
 ---
-title: "Using the API"
+title: "Subscription Users"
 layout: default
 has_children: true
-permalink: /api/
+permalink: /sub-users/
 nav_order: 4
 ---
 <details open markdown="block">

@@ -1,7 +1,7 @@
 ---
 title: "Pre-paid Users"
 layout: default
-permalink: /pre-paid/
+permalink: /pre-paid-users/
 nav_order: 3
 ---
 {% include table-content %}

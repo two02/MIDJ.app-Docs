@@ -3,7 +3,7 @@ title: "Using the API"
 layout: default
 has_children: true
 permalink: /api/
-nav_order: 3
+nav_order: 4
 ---
 <details open markdown="block">
   <summary>
